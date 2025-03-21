@@ -13,13 +13,15 @@ In addition to the implementation code presented in the paper, this project prov
 
 ### Training Rewards：
 
-![](.\img\training_rewards.png)
+![training_rewards](https://github.com/user-attachments/assets/7d2ca16b-e727-4cda-a50f-fc5151786adc)
+
 
 ### Results：
 
-![](.\img\OPT_compare1.png)
+![OPT_compare1](https://github.com/user-attachments/assets/f4c08dcb-a94f-4ebd-b3f8-4d94c066ac6b)
 
-![](.\img\OPT_compare2.png)
+![OPT_compare2](https://github.com/user-attachments/assets/77e6f63f-ccc7-49d6-aaff-f214282d93c9)
+
 
 This trading environment is developed based on [wassname](https://github.com/wassname)'s [rl-portfolio-management implementation](https://github.com/wassname/rl-portfolio-management), with improvements and migration to the Stable-Baselines3 (SB3) reinforcement learning framework. (Note: This code is compatible with SB3 under Python 3.7)
 
