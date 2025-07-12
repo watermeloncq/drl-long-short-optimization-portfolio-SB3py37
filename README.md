@@ -2,25 +2,21 @@
 
 ## 1. About
 
-### Paper URL：
+This repository contains the implementation code for the revised version of the paper "Deep Reinforcement Learning for Long-Short Portfolio Optimization". This revised version was prepared in response to journal peer review and significantly expands upon the original work.
+
+### Original Paper (Preprint) URL：
 
 https://arxiv.org/abs/2012.13773
+
+Note: The code in this repository has been updated based on reviewer feedback. Key enhancements include robustness testing across six different random seeds and expanded cross-market validation. The dataset has been updated from the randomly selected CSI 300 constituents used in the original preprint to the new CSI 500 and S&P 500 test portfolios.
+
+
 
 In addition to the implementation code presented in the paper, this project provides supplementary code with the following algorithmic implementations for testing and learning purposes:
 
 - PPO+ViT
 - PPO+Resnet
 
-### Training Rewards：
-
-![training_rewards](https://github.com/user-attachments/assets/7d2ca16b-e727-4cda-a50f-fc5151786adc)
-
-
-### Results：
-
-![OPT_compare1](https://github.com/user-attachments/assets/f4c08dcb-a94f-4ebd-b3f8-4d94c066ac6b)
-
-![OPT_compare2](https://github.com/user-attachments/assets/77e6f63f-ccc7-49d6-aaff-f214282d93c9)
 
 
 This trading environment is developed based on [wassname](https://github.com/wassname)'s [rl-portfolio-management implementation](https://github.com/wassname/rl-portfolio-management), with improvements and migration to the Stable-Baselines3 (SB3) reinforcement learning framework. (Note: This code is compatible with SB3 under Python 3.7)
@@ -57,7 +53,8 @@ Step 1: Process data files by executing "./data/0. load chinese data 1d multinde
 
 Step 2: Execute the jupyter notebook files ("XX.ipynb") in the project root directory, for example:
 
-- 10+1assets-drl-portfolio-arbitrage-stableBaseline3-PPO-VGG1-Tanh-AVGSharpe.ipynb : (This notebook implements the paper's methodology.)
+- 10+1CSI500-drl-portfolio-arbitrage-stableBaseline3-PPO-VGG1-Tanh-AVGSharpe-seed2.ipynb 
+- 10+1S&P500-drl-portfolio-arbitrage-stableBaseline3-PPO-VGG1-Tanh-AVGSharpe-seed3.ipynb
 
 <u>The training process often requires multiple complete restarts to achieve satisfactory backtesting performance, even with confirmed convergence of training rewards in each attempt. A single successful outcome may necessitate numerous training attempts from scratch.</u>
 
@@ -83,7 +80,7 @@ tensorboard --logdir PPO-vgg1-Tanh-maxSharpe-arbitrage
 
 ## 4. Citation
 
-If you use this code, please cite our paper:
+If you use this code, please cite our paper. The code in this repository corresponds to the **revised and extended version** of our work, which is currently under peer review at a journal. Until the final version is published, we recommend citing the original preprint available on arXiv:
 
 ```bibtex
 @ARTICLE{2020arXiv201213773H,
