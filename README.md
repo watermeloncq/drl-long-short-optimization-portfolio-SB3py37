@@ -56,7 +56,7 @@ Step 2: Execute the jupyter notebook files ("XX.ipynb") in the project root dire
 - 10+1CSI500-drl-portfolio-arbitrage-stableBaseline3-PPO-VGG1-Tanh-AVGSharpe-seed2.ipynb 
 - 10+1S&P500-drl-portfolio-arbitrage-stableBaseline3-PPO-VGG1-Tanh-AVGSharpe-seed3.ipynb
 
-<u>The training process often requires multiple complete restarts to achieve satisfactory backtesting performance, even with confirmed convergence of training rewards in each attempt. A single successful outcome may necessitate numerous training attempts from scratch.</u>
+<u>~~The training process often requires multiple complete restarts to achieve satisfactory backtesting performance, even with confirmed convergence of training rewards in each attempt. A single successful outcome may necessitate numerous training attempts from scratch.~~</u>
 
 ### (2) Important Notes（English & Chinese）
 
