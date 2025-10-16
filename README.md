@@ -4,11 +4,14 @@
 
 This repository contains the implementation code for the revised version of the paper "Deep Reinforcement Learning for Long-Short Portfolio Optimization". This revised version was prepared in response to journal peer review and significantly expands upon the original work.
 
-### Original Paper (Preprint) URL：
+### Published Paper URL：
 
-https://arxiv.org/abs/2012.13773
+https://link.springer.com/article/10.1007/s10614-025-11143-4
 
-Note: The code in this repository has been updated based on reviewer feedback. Key enhancements include robustness testing across six different random seeds and expanded cross-market validation. The dataset has been updated from the randomly selected CSI 300 constituents used in the original preprint to the new CSI 500 and S&P 500 test portfolios.
+**Original Preprint:** https://arxiv.org/abs/2012.13773
+
+Note: The code in this repository corresponds to the published version in *Computational Economics* (2025). Key enhancements from the original preprint include robustness testing across six different random seeds and expanded cross-market validation. The dataset has been updated from the randomly selected CSI 300 constituents to the CSI 500 and S&P 500 test portfolios.
+
 
 
 
@@ -83,21 +86,16 @@ tensorboard --logdir PPO-vgg1-Tanh-maxSharpe-arbitrage
 If you use this code, please cite our paper. The code in this repository corresponds to the **revised and extended version** of our work, which is currently under peer review at a journal. Until the final version is published, we recommend citing the original preprint available on arXiv:
 
 ```bibtex
-@ARTICLE{2020arXiv201213773H,
-       author = {{Huang}, Gang and {Zhou}, Xiaohua and {Song}, Qingyang},
-        title = "{Deep Reinforcement Learning for Long-Short Portfolio Optimization}",
-      journal = {arXiv e-prints},
-     keywords = {Quantitative Finance - Computational Finance, Computer Science - Machine Learning, Quantitative Finance - Portfolio Management},
-         year = 2020,
-        month = dec,
-          eid = {arXiv:2012.13773},
-        pages = {arXiv:2012.13773},
-          doi = {10.48550/arXiv.2012.13773},
-archivePrefix = {arXiv},
-       eprint = {2012.13773},
- primaryClass = {q-fin.CP},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv201213773H},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{huangDeepReinforcementLearning2025a,
+  title = {Deep Reinforcement Learning for Long-Short Portfolio Optimization},
+  author = {Huang, Gang and Zhou, Xiaohua and Song, Qingyang},
+  year = {2025},
+  month = oct,
+  journal = {Computational Economics},
+  issn = {1572-9974},
+  doi = {10.1007/s10614-025-11143-4},
+  urldate = {2025-10-15},
+  langid = {english}
 }
 ```
 
