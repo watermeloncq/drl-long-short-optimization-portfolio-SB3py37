@@ -94,7 +94,7 @@ If you use this code, please cite our paper. The code in this repository corresp
   journal = {Computational Economics},
   issn = {1572-9974},
   doi = {10.1007/s10614-025-11143-4},
-  urldate = {2025-10-16},
+  urldate = {2025-10-15},
   langid = {english}
 }
 ```
