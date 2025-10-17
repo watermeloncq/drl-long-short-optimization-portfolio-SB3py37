@@ -83,7 +83,7 @@ tensorboard --logdir PPO-vgg1-Tanh-maxSharpe-arbitrage
 
 ## 4. Citation
 
-If you use this code, please cite our paper. The code in this repository corresponds to the **revised and extended version** of our work, which is currently under peer review at a journal. Until the final version is published, we recommend citing the original preprint available on arXiv:
+If you use this code, please cite our published paper. The code in this repository corresponds to the published version in *Computational Economics* (2025):
 
 ```bibtex
 @article{huangDeepReinforcementLearning2025a,
